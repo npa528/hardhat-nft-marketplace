@@ -23,9 +23,18 @@ const DECIMALS = "18"
 const INITIAL_PRICE = "200000000000000000000"
 const developmentChains = ["hardhat", "localhost"]
 
+const frontEndContractsFile = "../nextjs-nft-marketplace/constants/networkMapping.json"
+const frontEndContractsFile2 = "../nextjs-nft-marketplace/constants/networkMapping.json"
+const frontEndAbiLocation = "../nextjs-nft-marketplace/constants/"
+const frontEndAbiLocation2 = "../nextjs-nft-marketplace/constants/"
+
 module.exports = {
     networkConfig,
     developmentChains,
     DECIMALS,
     INITIAL_PRICE,
+    frontEndContractsFile,
+    frontEndContractsFile2,
+    frontEndAbiLocation,
+    frontEndAbiLocation2,
 }
